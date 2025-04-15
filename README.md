@@ -30,7 +30,7 @@ pip install langflow
 6. `pull`したコンテナを`docker run`して立ち上げる
 7. `docker exec`でコンテナに入る
 8. `ls .env/bin/lib/python3.12/site-packages`で中身を見て地道にどのバージョンの何がインストールされているのかを確認する
-9. 4 の情報を基に`requirements.txt`を作る
+9. ↑ の情報を基に`requirements.txt`を作る
 10. `pip install -r requirements.txt`する
 11. `langflow run`を叩いてみる
 12. 上手くいったら歓喜の舞を躍りながら`pip freeze > requirements.txt`する
